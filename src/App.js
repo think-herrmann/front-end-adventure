@@ -9,9 +9,10 @@ import Home from "./components/home";
 import MarkdownContent from "./components/markdown-content";
 import AdventurePage from "./components/adventure-page";
 
+const basename = process.env.NODE_ENV == "production" ? "/front-end-adventure" : "/"
 function App() {
   return (
-    <Router>
+    <Router basename={basename}>
       <div className={styles.pageWrapper}>
         <div className={styles.contentWrapper}>
           <div className={styles.tileWrapper}>

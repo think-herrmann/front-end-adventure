@@ -2,7 +2,7 @@
   "name": "herrmann-front-end-challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://thinkherrmann.github.io/front-end-adventure",
+  "homepage": "http://think-herrmann.github.io/front-end-adventure",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
