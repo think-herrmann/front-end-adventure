@@ -45,6 +45,12 @@ function Home() {
           <Subheader title="Resources" />
           <ul className={styles.resourcesList}>
             <li>
+              <a href="">
+                <FontAwesomeIcon icon={["fas", "question"]} />
+                FAQs
+              </a>
+            </li>
+            <li>
               <Link to="/content/frameworks">
                 <FontAwesomeIcon icon={["fas", "book"]} />
                 Frameworks in this App
