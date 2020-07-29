@@ -1,0 +1,15 @@
+.pageWrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.contentWrapper {
+  width: 100%;
+  display: flex;
+}
+
+.tileWrapper {
+  width: 100%;
+}
+

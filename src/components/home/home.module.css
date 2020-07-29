@@ -1,0 +1,36 @@
+.wrapper {
+  max-width: 1360px;
+  margin: -48px auto 0;
+}
+
+.tile {
+  max-width: 400px;
+  width: 100%;
+  margin: 10px;
+}
+
+.tile p{
+  margin: 10px;
+}
+
+.sparkle {
+  display: flex;
+  justify-content: center;
+}
+
+.resourcesList {
+  list-style: none;
+  padding: 10px;
+}
+
+.resourcesList svg{
+  margin: 0px 5px;
+}
+
+.resourcesList a{
+  text-decoration: none
+}
+
+.resourcesList li{
+  margin: 10px;
+}

@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styles from "./App.module.css";
+import Masonry from "react-masonry-component";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Header } from "axon-component-library";
+import 'axon-component-library/dist/global-styles.css';
+
+import Home from "./components/home";
+import MarkdownContent from "./components/markdown-content";
+import AdventurePage from "./components/adventure-page";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className={styles.pageWrapper}>
+        <div className={styles.contentWrapper}>
+          <div className={styles.tileWrapper}>
+            <Header tileOverlap={true} />
+            <Route exact path="/" component={Home} />
+            <Route path="/content/:id" component={MarkdownContent} />
+            <Route path="/adventure/:id" component={AdventurePage} />
+          </div>
+        </div>
+      </div>
+    </Router>
   );
 }
 
