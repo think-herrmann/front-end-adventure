@@ -3,11 +3,14 @@ import { Tile } from "axon-component-library";
 import {useParams} from 'react-router-dom'
 
 import styles from './markdown-content.module.css';
-import Readme from '../../content/readme.mdx'
 
-const pages = {
-  readme: Readme
-};
+const pages = {};
+
+function importAll (r) {
+  r.keys().forEach(key => pages[key.replace(".mdx","").replace("./","")] = r(key).default);
+}
+
+importAll(require.context('../../content/', false, /\.mdx$/));
 
 function MarkdownContent() {
   let {id} = useParams();
@@ -15,6 +18,7 @@ function MarkdownContent() {
 
   return (
     <Tile className={styles.content}>
+      <span></span>
       <Content />
     </Tile>
   );

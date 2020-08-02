@@ -3,24 +3,24 @@ import { Tile } from "axon-component-library";
 import {Link, useParams} from 'react-router-dom';
 
 import styles from './adventure-page.module.css';
-import Start, { choices as startChoices } from '../../content/adventure/start.mdx'
-import NotFound, { choices as notfoundChoices } from '../../content/adventure/not-found.mdx'
 
+const pages = {}
 
-const pages = {
-  start: {
-    component: Start,
-    choices: startChoices
-  },
-  notFound: {
-    component: NotFound,
-    choices: notfoundChoices
-  }
-};
+function importAll (r) {
+  r.keys().forEach(key => {
+    const page = {
+      component: r(key).default,
+      choices: r(key).choices
+    }
+    pages[key.replace(".mdx","").replace("./","")] = page
+  });
+}
+
+importAll(require.context('../../content/adventure', false, /\.mdx$/));
 
 function AdventurePage(props) {
   let { id } = useParams();
-  const page = pages[id] || pages.notFound
+  const page = pages[id] || pages["not-found"]
   const Content = page.component;
   const choices = page.choices
 
