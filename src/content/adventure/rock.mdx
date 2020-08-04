@@ -1,0 +1,19 @@
+export const choices = ({hasHeadband}) => {
+  const baseChoices = {
+    shimmering_clearing: "Go back to the clearing",
+    enter_the_glitch: "Walk into the stream and through the split"
+  }
+  
+  if(hasHeadband){
+    baseChoices.escape= "Put the headband on, and then walk through the split"
+  }
+  
+  return baseChoices
+}
+
+# Throwing a Rock in the Stream
+
+You pickup a rock from the bank and throw it towards where the stream splits.
+When it hits the split, you suddently see two rocks, each headed down a
+different side of the split, but otherwise following the same trajectory. They
+both land in the stream at the same time with a solid splash.

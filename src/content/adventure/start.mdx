@@ -1,12 +1,21 @@
-export const choices = {
-  north: "Go north",
-  mailbox: "Open mailbox", 
-  house: "Try to sneak into the house"
+import {useSelector} from 'react-redux';
+export const choices = ({hasMap}) => {
+  const baseChoices  = {
+    north: "Go north",
+    [hasMap ? 'empty_mailbox' : 'mailbox']: "Open mailbox", 
+    house: "Climb into the house through the window"
+  }
+  
+  if(hasMap){
+    baseChoices.east = "Go east"
+  }
+  return baseChoices
 }
 
 # West of House
 
 You are standing in an open field west of a white house, with a boarded front
-door.
+door, and a broken window.
 
-There is a small mailbox here.
+There is a small mailbox here and a path leading north. There's nothing else as
+far as you can see in any direction.
