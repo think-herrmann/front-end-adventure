@@ -42,26 +42,28 @@ capture again, and only one path where you narrowly escape.
 ## Escape Outline 
 
 ```
--- awake
-   -- first_hallway
-      -- outside_security_center
-          -- security_center
-             -- start
-          -- windowless hallway
-             -- outside_patient_room
-                -- patient_room
-             -- long_hallway
-                -- guard_house
-                -- start
+-- escape (x)
+   -- first_hallway (x)
+      -- outside_security_center (x)
+          -- security_center (x)
+             -- start (x)
+          -- windowless hallway (x)
+             -- outside_security_center (x)
+             -- outside_experimental_room (x)
+                -- long_hallway (x)
+                -- hall_with_window (x)
+             -- long_hallway (x)
+                -- guard_house (x)
+                -- start (x)
                 -- outside
-          -- first_hallway
-      -- outside_server_room
-         -- server_room
-            -- terminal
-               -- release_all_subjects
-               -- server_room
-            -- outside_server_room
-         -- hall_with_window 
-            -- outside_patient_room
-         -- first_hallway
+          -- first_hallway (x)
+   -- outside_server_room (x)
+         -- server_room (x)
+            -- terminal (x)
+               -- release_all_subjects (x)
+            -- outside_server_room (x)
+         -- hall_with_window (x)
+            -- outside_experimental_room (x)
+            -- outside_server_room (x)
+         -- first_hallway (x)
 ```
