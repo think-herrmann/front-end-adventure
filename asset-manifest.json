@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/front-end-adventure/static/css/main.cd5ae4d1.chunk.css",
-    "main.js": "/front-end-adventure/static/js/main.b3a4da9c.chunk.js",
-    "main.js.map": "/front-end-adventure/static/js/main.b3a4da9c.chunk.js.map",
+    "main.js": "/front-end-adventure/static/js/main.27ce60d7.chunk.js",
+    "main.js.map": "/front-end-adventure/static/js/main.27ce60d7.chunk.js.map",
     "runtime~main.js": "/front-end-adventure/static/js/runtime~main.16bf1063.js",
     "runtime~main.js.map": "/front-end-adventure/static/js/runtime~main.16bf1063.js.map",
     "static/css/2.aa034f62.chunk.css": "/front-end-adventure/static/css/2.aa034f62.chunk.css",
-    "static/js/2.34c41b7e.chunk.js": "/front-end-adventure/static/js/2.34c41b7e.chunk.js",
-    "static/js/2.34c41b7e.chunk.js.map": "/front-end-adventure/static/js/2.34c41b7e.chunk.js.map",
+    "static/js/2.2dd9ea23.chunk.js": "/front-end-adventure/static/js/2.2dd9ea23.chunk.js",
+    "static/js/2.2dd9ea23.chunk.js.map": "/front-end-adventure/static/js/2.2dd9ea23.chunk.js.map",
     "index.html": "/front-end-adventure/index.html",
-    "precache-manifest.a8df026a211141eb9860dcc7f1425aed.js": "/front-end-adventure/precache-manifest.a8df026a211141eb9860dcc7f1425aed.js",
+    "precache-manifest.ebf5e3f8ff0c73966ccec5d7b8987347.js": "/front-end-adventure/precache-manifest.ebf5e3f8ff0c73966ccec5d7b8987347.js",
     "service-worker.js": "/front-end-adventure/service-worker.js",
     "static/css/2.aa034f62.chunk.css.map": "/front-end-adventure/static/css/2.aa034f62.chunk.css.map",
     "static/css/main.cd5ae4d1.chunk.css.map": "/front-end-adventure/static/css/main.cd5ae4d1.chunk.css.map"
