@@ -19,11 +19,11 @@ const storyEvents = createSlice({
 
 // TODO: Implement this reducer to store the path the
 // user takes through the story
-const userPath = ({
+const userPath = createSlice({
   name: "userPath",
   initialState: null,
-  reducers: {}
-})
+  reducers: {},
+});
 
 const { actions, reducer } = storyEvents;
 
@@ -31,6 +31,7 @@ export const { pickupHeadband, pickupMap, freePrisoners } = actions;
 
 const rootReducer = {
   storyEvents: reducer,
+  userPath: userPath.reducer,
 };
 
 export default rootReducer;
