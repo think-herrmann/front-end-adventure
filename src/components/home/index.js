@@ -8,7 +8,7 @@ import {
   Tile,
   DecoderRings,
   ColorButton
-} from "axon-component-library";
+} from "@think-herrmann/component-library";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Home() {

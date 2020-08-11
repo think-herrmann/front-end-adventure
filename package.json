@@ -11,7 +11,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "axon-component-library": "ssh://git@github.com:think-herrmann/component-library.git",
+    "@think-herrmann/component-library": "1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-masonry-component": "^6.2.1",

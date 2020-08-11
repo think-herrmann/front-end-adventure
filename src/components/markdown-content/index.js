@@ -1,5 +1,5 @@
 import React from "react";
-import { Tile } from "axon-component-library";
+import { Tile } from "@think-herrmann/component-library";
 import {useParams} from 'react-router-dom'
 
 import styles from './markdown-content.module.css';

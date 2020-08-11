@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Tile } from "axon-component-library";
+import { Tile } from "@think-herrmann/component-library";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 

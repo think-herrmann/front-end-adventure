@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./App.module.css";
 import Masonry from "react-masonry-component";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Header } from "axon-component-library";
+import { Header } from "@think-herrmann/component-library";
 import { Provider } from "react-redux";
-import "axon-component-library/dist/global-styles.css";
+import "@think-herrmann/component-library/dist/global-styles.css";
 
 import store from './store';
 import Home from "./components/home";
