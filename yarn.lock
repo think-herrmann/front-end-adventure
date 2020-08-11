@@ -2196,17 +2196,16 @@
   resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-7.2.1.tgz#2ad4e844175a3738cb9e7064be5ea070b8863a1c"
   integrity sha512-oZ0Ib5I4Z2pUEcoo95cT1cr6slco9WY7yiPpG+RGNkj8YcYgJnM7pXmYmorNOReh8MIGcKSqXyeGjxnr8YiZbA==
 
-"@think-herrmann/component-library@1.1.0":
-  version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@think-herrmann/component-library/1.1.0/8772eba3bc17257fd4120cbc707b8c199e67e18d12cced2849027ffc40614a0e#aa93d9029855d86ff814522af76c48fa385a8899"
-  integrity sha512-tOMbeeLu/zVP4UWwFp6ZnZ7RNtp+LnkNFpk+MAXqF1plG2GDNN7LGvhMEq+Vufn41O7VZas1THj38Iqza0lLjg==
+"@think-herrmann/component-library@1.1.1":
+  version "1.1.1"
+  resolved "https://npm.pkg.github.com/download/@think-herrmann/component-library/1.1.1/e6e4a5a78b8f67fef93d293f7e7856581e7ed99e9b7f41ab4708d34aad53eede#5b6e313e569e5bd2f2e10d2b834dd717737abbd4"
+  integrity sha512-Ckcg1nXn57gWwMwg6fXXdu1LCNG8VbUN+a0G0d30AxzQADGMNFwDLhkfp6OhzJG0ymWk0feaz7PCucaAt0HsLA==
   dependencies:
     "@fortawesome/fontawesome" "^1.1.4"
     "@fortawesome/fontawesome-free-brands" "^5.0.8"
     "@fortawesome/fontawesome-free-regular" "^5.0.8"
     "@fortawesome/fontawesome-free-solid" "^5.0.8"
     "@fortawesome/react-fontawesome" "^0.0.17"
-    axon-brand "git+ssh://git@github.com:think-herrmann/axon-brand.git"
     classnames "^2.2.5"
     gsap "^2.1.3"
     lodash "^4.17.10"
@@ -2930,14 +2929,6 @@ axobject-query@^2.0.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.1.2.tgz#2bdffc0371e643e5f03ba99065d5179b9ca79799"
   integrity sha512-ICt34ZmrVt8UQnvPl6TVyDTkmhXmAyAT4Jh5ugfGUX4MOrZ+U/ZY6/sdylRw3qGNr9Ub5AJsaHeDMzNLehRdOQ==
-
-"axon-brand@git+ssh://git@github.com:think-herrmann/axon-brand.git":
-  version "1.0.0"
-  resolved "git+ssh://git@github.com:think-herrmann/axon-brand.git#85a462643e6fd5d035d8da8b8efef59174e86a50"
-  dependencies:
-    arcs "git+https://github.com/herrmann-intl/arcs.git"
-    lodash "^4.0.0"
-    prop-types "^15.5.7"
 
 babel-code-frame@^6.22.0:
   version "6.26.0"
@@ -7752,7 +7743,7 @@ lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
-lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.12, lodash@^4.17.19, lodash@^4.17.4:
+lodash@^4.17.10, lodash@^4.17.12, lodash@^4.17.19, lodash@^4.17.4:
   version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
@@ -9865,7 +9856,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
